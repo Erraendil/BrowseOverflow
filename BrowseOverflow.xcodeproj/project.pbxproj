@@ -14,7 +14,6 @@
 		1AB2DA3F1E59A92F0060C647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2DA3D1E59A92F0060C647 /* Main.storyboard */; };
 		1AB2DA411E59A92F0060C647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2DA401E59A92F0060C647 /* Assets.xcassets */; };
 		1AB2DA441E59A92F0060C647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2DA421E59A92F0060C647 /* LaunchScreen.storyboard */; };
-		1AB2DA4F1E59A92F0060C647 /* BrowseOverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2DA4E1E59A92F0060C647 /* BrowseOverflowTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		1AB2DA431E59A92F0060C647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AB2DA451E59A92F0060C647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AB2DA4A1E59A92F0060C647 /* BrowseOverflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowseOverflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AB2DA4E1E59A92F0060C647 /* BrowseOverflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowTests.m; sourceTree = "<group>"; };
 		1AB2DA501E59A92F0060C647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +108,6 @@
 		1AB2DA4D1E59A92F0060C647 /* BrowseOverflowTests */ = {
 			isa = PBXGroup;
 			children = (
-				1AB2DA4E1E59A92F0060C647 /* BrowseOverflowTests.m */,
 				1AB2DA501E59A92F0060C647 /* Info.plist */,
 			);
 			path = BrowseOverflowTests;
@@ -231,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB2DA4F1E59A92F0060C647 /* BrowseOverflowTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
