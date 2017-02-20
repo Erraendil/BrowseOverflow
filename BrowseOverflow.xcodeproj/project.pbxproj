@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AACCE011E5B514F006FFF63 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACCE001E5B514F006FFF63 /* TopicTests.m */; };
+		1AACCE051E5B51F6006FFF63 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACCE041E5B51F6006FFF63 /* Topic.m */; };
+		1AACCE061E5B51F6006FFF63 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACCE041E5B51F6006FFF63 /* Topic.m */; };
 		1AB2DA331E59A92F0060C647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2DA321E59A92F0060C647 /* main.m */; };
 		1AB2DA361E59A92F0060C647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2DA351E59A92F0060C647 /* AppDelegate.m */; };
 		1AB2DA391E59A92F0060C647 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2DA381E59A92F0060C647 /* MasterViewController.m */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AACCE001E5B514F006FFF63 /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTests.m; sourceTree = "<group>"; };
+		1AACCE031E5B51F6006FFF63 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		1AACCE041E5B51F6006FFF63 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
 		1AB2DA2E1E59A92F0060C647 /* BrowseOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowseOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB2DA321E59A92F0060C647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AB2DA341E59A92F0060C647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AACCE021E5B51C2006FFF63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AACCE031E5B51F6006FFF63 /* Topic.h */,
+				1AACCE041E5B51F6006FFF63 /* Topic.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		1AB2DA251E59A92F0060C647 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +97,7 @@
 		1AB2DA301E59A92F0060C647 /* BrowseOverflow */ = {
 			isa = PBXGroup;
 			children = (
+				1AACCE021E5B51C2006FFF63 /* Model */,
 				1AB2DA341E59A92F0060C647 /* AppDelegate.h */,
 				1AB2DA351E59A92F0060C647 /* AppDelegate.m */,
 				1AB2DA371E59A92F0060C647 /* MasterViewController.h */,
@@ -109,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				1AB2DA501E59A92F0060C647 /* Info.plist */,
+				1AACCE001E5B514F006FFF63 /* TopicTests.m */,
 			);
 			path = BrowseOverflowTests;
 			sourceTree = "<group>";
@@ -219,6 +236,7 @@
 				1AB2DA361E59A92F0060C647 /* AppDelegate.m in Sources */,
 				1AB2DA391E59A92F0060C647 /* MasterViewController.m in Sources */,
 				1AB2DA331E59A92F0060C647 /* main.m in Sources */,
+				1AACCE051E5B51F6006FFF63 /* Topic.m in Sources */,
 				1AB2DA3C1E59A92F0060C647 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AACCE011E5B514F006FFF63 /* TopicTests.m in Sources */,
+				1AACCE061E5B51F6006FFF63 /* Topic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
