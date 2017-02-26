@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9AE3451E62A9AC006346D3 /* QuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9AE3441E62A9AC006346D3 /* QuestionTests.m */; };
+		1A9AE3481E62AA81006346D3 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9AE3471E62AA81006346D3 /* Question.m */; };
 		1AACCE011E5B514F006FFF63 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACCE001E5B514F006FFF63 /* TopicTests.m */; };
 		1AACCE051E5B51F6006FFF63 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACCE041E5B51F6006FFF63 /* Topic.m */; };
 		1AACCE061E5B51F6006FFF63 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACCE041E5B51F6006FFF63 /* Topic.m */; };
@@ -30,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A9AE3441E62A9AC006346D3 /* QuestionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTests.m; sourceTree = "<group>"; };
+		1A9AE3461E62AA81006346D3 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		1A9AE3471E62AA81006346D3 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		1AACCE001E5B514F006FFF63 /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTests.m; sourceTree = "<group>"; };
 		1AACCE031E5B51F6006FFF63 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
 		1AACCE041E5B51F6006FFF63 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
@@ -72,6 +77,8 @@
 			children = (
 				1AACCE031E5B51F6006FFF63 /* Topic.h */,
 				1AACCE041E5B51F6006FFF63 /* Topic.m */,
+				1A9AE3461E62AA81006346D3 /* Question.h */,
+				1A9AE3471E62AA81006346D3 /* Question.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -126,6 +133,7 @@
 			children = (
 				1AB2DA501E59A92F0060C647 /* Info.plist */,
 				1AACCE001E5B514F006FFF63 /* TopicTests.m */,
+				1A9AE3441E62A9AC006346D3 /* QuestionTests.m */,
 			);
 			path = BrowseOverflowTests;
 			sourceTree = "<group>";
@@ -236,6 +244,7 @@
 				1AB2DA361E59A92F0060C647 /* AppDelegate.m in Sources */,
 				1AB2DA391E59A92F0060C647 /* MasterViewController.m in Sources */,
 				1AB2DA331E59A92F0060C647 /* main.m in Sources */,
+				1A9AE3481E62AA81006346D3 /* Question.m in Sources */,
 				1AACCE051E5B51F6006FFF63 /* Topic.m in Sources */,
 				1AB2DA3C1E59A92F0060C647 /* DetailViewController.m in Sources */,
 			);
@@ -246,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AACCE011E5B514F006FFF63 /* TopicTests.m in Sources */,
+				1A9AE3451E62A9AC006346D3 /* QuestionTests.m in Sources */,
 				1AACCE061E5B51F6006FFF63 /* Topic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
