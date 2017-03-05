@@ -8,21 +8,47 @@
 
 #import "Topic.h"
 
-@implementation Topic
+@implementation Topic {
+    NSArray *questions;
+}
 
 @synthesize name, tag;
 
 - (id)initWithName:(NSString *)newName tag:(NSString *)newTag {
     if (self = [super init]) {
-        name = [newName copy];
-        tag = [newTag copy];
+        name        = [newName copy];
+        tag         = [newTag copy];
+        questions   = [[NSArray alloc] init];
     }
     
     return self;
 }
 
 - (NSArray *)recentQuestions {
-    return [NSArray array];
+    
+    return [self sortQuestionsLatestFirst:questions];
+}
+
+- (void)addQuestion:(Question *)question {
+    
+    NSArray *newQuestions = [questions arrayByAddingObject:question];
+    
+    if ([newQuestions count] > 20) {
+        newQuestions = [self sortQuestionsLatestFirst:newQuestions];
+        newQuestions = [newQuestions subarrayWithRange:NSMakeRange(0, 20)];
+    }
+    
+    questions = newQuestions;
+}
+
+- (NSArray *)sortQuestionsLatestFirst:(NSArray *)questionList {
+ 
+    return [questions sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        Question *questionOne = (Question *)obj1;
+        Question *questionTwo = (Question *)obj2;
+        
+        return [questionTwo.date compare:questionOne.date];
+    }];
 }
 
 @end
